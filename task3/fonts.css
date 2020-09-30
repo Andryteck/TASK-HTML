@@ -10,10 +10,10 @@
     font-weight: normal;
     font-style: normal;
 }
-h1 {
+h2 {
 font: 30px 'PT Serif', sans-serif;
 }
-p {
+.subtitle {
     font: 15px 'Marck Script', cursive;
     margin: 0 auto;
 }
