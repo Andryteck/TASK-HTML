@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            margin: 0 auto;
+        }
+
+        .wrapper {
+            text-align: center;
+            margin: 100px auto;
+        }
+
+        .list {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            display: inline-block;
+        }
+
+        .list__item {
+            display: inline-block;
+            margin: 5px 10px;
+            font-size: 25px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            background-color: lightgreen;
+            border: 2px solid grey;
+            text-align: center;
+            line-height: 40px;
+            color: white;
+        }
+
+        .list__current {
+            background-color: pink;
+        }
+
+        .list__not-passed {
+            background-color: grey;
+        }
+
+        .list__item:first-child {
+            margin: 5px 10px 5px 0;
+        }
+
+        .list__item:last-child {
+            margin: 5px 0 5px 10px;
+        }
+
+        .list:before {
+            content: '';
+            width: 100%;
+            height: 3px;
+            background-color: grey;
+            position: absolute;
+            top: 50%;
+            z-index: -1;
+        }
+        .list__item a {
+            text-decoration: none;
+        }
+
+    </style>
+    <title>visual-step</title>
+</head>
+<body>
+<div class="wrapper">
+    <ul class="list">
+        <li  class="list__item"><a href="https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/profile">1</a></li>
+        <li  class="list__item"><a href="https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/profile">2</a></li>
+        <li  class="list__item"><a href="https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/profile">3</a></li>
+        <li  class="list__item  list__current"><a href="https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/profile">4</a></li>
+        <li  class="list__item list__not-passed"><a href="https://andryteck.github.io/react-way-of-samurai/#/react-way-of-samurai/profile">5</a></li>
+    </ul>
+</div>
+</body>
+</html>
