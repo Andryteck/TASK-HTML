@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>blank-menu.html</title>
+    <style>
+        body {
+            background-color: #3F3F3F;
+            font: 15px/1.625em "Helvetica Neue", Helvetica, sans-serif;
+
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        .menu {
+            margin-top: 50px;
+        }
+
+        img {
+            width: 20px;
+            height: 20px;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+
+        .menu ul {
+            width: 850px;
+            height: 100%;
+            background-color: black;
+            padding: 0;
+            margin: auto;
+            position: relative;
+        }
+
+        .menu ul li {
+            display: inline-block;
+            height: 40px;
+            width: 150px;
+            background: dodgerblue;
+            list-style-type: none;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: white;
+            margin-top: 5px;
+            margin-left: 10px;
+            font-size: 20px;
+            line-height: 40px;
+        }
+
+        .submenu {
+            background-color: white;
+            position: absolute;
+        }
+        .submenu div {
+            line-height: 40px;
+            text-align: center;
+        }
+        .submenu div:hover {
+            background-color: gray;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <h1>Много-уровневое горизонтальное меню</h1>
+    <div class="menu">
+        <ul>
+            <li class="first"><img src="./assets/home_icon-icons.com_73532.svg" alt="1"><a href="#">Главная</a></li>
+            <li><img src="./assets/3289576-individual-man-people-person_107097.svg" alt="2"><a href="#">О нас</a></li>
+            <li><img src="./assets/3643766-album-image-landscape-photo-photos-picture_113407.svg" alt="3"><a href="#">Портфолио</a>
+            </li>
+            <li><img src="./assets/note-blog_icon-icons.com_53940.svg" alt="4"><a href="#">Блог</a></li>
+            <li><img src="./assets/contacts_address_book_icon_143029.svg" alt="5"><a href="#">Контакты</a></li>
+        </ul>
+        <div class="submenu" style="width: 150px;height: 120px;left: 235px;">
+            <div style="height: 40px;">Подменю 1</div>
+            <div style="height: 40px;">Подменю 2</div>
+            <div style="height: 40px;">Подменю 3</div>
+        </div>
+        <div class="submenu" style="width: 150px;height: 80px;left: 540px;">
+            <div style="height: 40px;">Подменю 1</div>
+            <div style="height: 40px;">Подменю 2</div>
+        </div>
+        <div class="submenu" style="width: 150px;height: 120px;left: 849px;top: 200px;">
+            <div style="height: 40px;">Подменю 1</div>
+            <div style="height: 40px;">Подменю 2</div>
+            <div style="height: 40px;">Подменю 3</div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
