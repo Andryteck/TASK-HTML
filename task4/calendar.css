@@ -21,6 +21,7 @@ body {
     border: 2px solid white;
     background: red;
     color: white;
+    height: 45px;
 }
 
 .demo td {

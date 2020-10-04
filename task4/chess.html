@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="vieort" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <style>
+        /*ws - white sell*/
+        /*bs - black sell*/
+        caption {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
         .bs {
             min-width: 50px;
             min-height: 50px;
@@ -20,63 +27,76 @@
             width: 50px;
             background: white;
         }
-        .wrapper1 .ws:nth-child(n), .wrapper1 .bs:nth-child(n) {
+
+        .wrapper1 td:nth-child(2), .wrapper1 td:nth-child(9) {
             background-image: url("./assets/chess.png");
             background-position: 40% 0;
         }
-        .wrapper1 .ws:nth-child(2n+1), .wrapper1 .bs:nth-child(2n+1) {
+
+        .wrapper1 td:nth-child(3), .wrapper1 td:nth-child(8)   {
             background-image: url("./assets/chess.png");
-            background-position: 80% 0;
+            background-position: 80% 100px;
         }
-        .wrapper1 .ws:nth-child(3n+1), .wrapper1 .bs:nth-child(3n+1) {
+
+        .wrapper1 td:nth-child(4), .wrapper1 td:nth-child(7) {
             background-image: url("./assets/chess.png");
             background-position: 60% 0;
         }
+        .wrapper1 td:nth-child(5) {
+            background-image: url("./assets/chess.png");
+            background-position: 20% 0px;
+        }
+        .wrapper1 td:nth-child(6) {
+            background-image: url("./assets/chess.png");
+            background-position: 0 0;
+        }
+
         .wrapper2 .ws:nth-child(n), .wrapper2 .bs:nth-child(n) {
             background-image: url("./assets/chess.png");
             background-position: 100% 0;
         }
+
         .wrapper3 .ws:nth-child(n), .wrapper3 .bs:nth-child(n) {
             background-image: url("./assets/chess.png");
-            background-position: 100% 0;
+            background-position: 100% 50px;
         }
-        .wrapper4 .ws:nth-child(n), .wrapper4 .bs:nth-child(n) {
+
+        .wrapper3 td:nth-child(8), .wrapper3 tr:nth-child(4) {
             background-image: url("./assets/chess.png");
-            background-position: 40% 0;
+            background-position: 0 50px;
         }
-        .wrapper4 .ws:nth-child(2n+1), .wrapper4 .bs:nth-child(2n+1) {
+
+        .wrapper4 td:nth-child(2), .wrapper4 td:nth-child(9) {
             background-image: url("./assets/chess.png");
-            background-position: 80% 0;
+            background-position: 40% 50px;
         }
-        .wrapper4 .ws:nth-child(3n+1), .wrapper4 .bs:nth-child(3n+1) {
+
+        .wrapper4 td:nth-child(3), .wrapper4 td:nth-child(8)   {
             background-image: url("./assets/chess.png");
-            background-position: 60% 0;
+            background-position: 80% 50px;
         }
-        .ls {
-            min-width: 15px;
-            min-height: 25px;
+        .wrapper4 td:nth-child(4), .wrapper4 td:nth-child(7)   {
+            background-image: url("./assets/chess.png");
+            background-position: 60% 50px;
+        }
+        .wrapper4 td:nth-child(5) {
+            background-image: url("./assets/chess.png");
+            background-position: 20% 50px;
+        }
+        .wrapper4 td:nth-child(6) {
+            background-image: url("./assets/chess.png");
+            background-position: 0% 50px;
+        }
+
+
+
+
+        .header {
+            min-width: 20px;
+            height: 30px;
             margin: 0 auto;
             text-align: center;
-        }
-
-        .bp {
-            color: dodgerblue;
-            font-size: xx-large;
             font-weight: bold;
-            width: 30px;
-            margin: 0 auto;
-        }
-
-        .wp {
-            color: red;
-            font-size: xx-large;
-            font-weight: bold;
-            width: 30px;
-            margin: 0 auto;
-        }
-
-        .grave {
-            width: 50px;
         }
 
         body {
@@ -88,90 +108,119 @@
             border-collapse: collapse;
             margin: 0 auto;
             margin-top: 10%;
+            border: 2px solid black;
+            background-color: white;
         }
 
-        table,
-        th,
-        td {
-            border: 1px solid black;
+        table tr:last-child td {
+            border-top: 2px solid black;
         }
+
+        table tr:first-child td {
+            border-bottom: 2px solid black;
+        }
+
+        table tr:nth-child(2) td:first-child,
+        table tr:nth-child(3) td:first-child,
+        table tr:nth-child(4) td:first-child,
+        table tr:nth-child(5) td:first-child,
+        table tr:nth-child(6) td:first-child,
+        table tr:nth-child(7) td:first-child,
+        table tr:nth-child(8) td:first-child,
+        table tr:nth-child(9) td:first-child {
+            border-right: 2px solid black;
+        }
+
+        table tr:nth-child(9) td:first-child,
+        table tr:nth-child(2) td:last-child,
+        table tr:nth-child(3) td:last-child,
+        table tr:nth-child(4) td:last-child,
+        table tr:nth-child(5) td:last-child,
+        table tr:nth-child(6) td:last-child,
+        table tr:nth-child(7) td:last-child,
+        table tr:nth-child(8) td:last-child,
+        table tr:nth-child(9) td:last-child {
+            border-left: 2px solid black;
+        }
+
 
     </style>
-    <title>chess</title>
+    <title>table</title>
 </head>
 <body>
 <div class="wrapper">
     <table>
+        <caption>Шахматы</caption>
         <tr>
-            <td class="ls">&nbsp;</td>
-            <td class="ls">a</td>
-            <td class="ls">b</td>
-            <td class="ls">c</td>
-            <td class="ls">d</td>
-            <td class="ls">e</td>
-            <td class="ls">f</td>
-            <td class="ls">g</td>
-            <td class="ls">h</td>
-            <td class="ls">&nbsp;</td>
+            <td class="header">&nbsp;</td>
+            <td class="header">a</td>
+            <td class="header">b</td>
+            <td class="header">c</td>
+            <td class="header">d</td>
+            <td class="header">e</td>
+            <td class="header">f</td>
+            <td class="header">g</td>
+            <td class="header">h</td>
+            <td class="header">&nbsp;</td>
         </tr>
         <tr class="wrapper1">
-            <td class="ls">8</td>
-            <td class="ws" >
-                <div id="piece1" class="wp"></div>
+            <td class="header">8</td>
+            <td class="ws">
+                <div></div>
             </td>
             <td class="bs">
-                <div id="piece2" class="wp"></div>
+                <div></div>
             </td>
             <td class="ws">
-                <div id="piece3" class="wp"></div>
+                <div></div>
             </td>
             <td class="bs">
-                <div id="piece4" class="wp"></div>
+                <div></div>
             </td>
             <td class="ws">
-                <div id="piece5" class="wp"></div>
+                <div></div>
             </td>
             <td class="bs">
-                <div id="piece6" class="wp"></div>
+                <div></div>
             </td>
             <td class="ws">
-                <div id="piece7" class="wp"></div>
+                <div></div>
             </td>
             <td class="bs">
-                <div id="piece8" class="wp"></div>
+                <div></div>
             </td>
-            <td class="ls">8</td>
+            <td class="header">8</td>
         </tr>
         <tr class="wrapper2">
-            <td class="ls">7</td>
+            <td class="header">7</td>
             <td class="bs">
-                <div id="piece9" class="wp"></div>
+                <div></div>
             </td>
             <td class="ws">
-                <div id="piece10" class="wp"></div>
+                <div></div>
             </td>
             <td class="bs">
-                <div id="piece11" class="wp"></div>
+                <div></div>
             </td>
             <td class="ws">
-                <div id="piece12" class="wp"></div>
+                <div></div>
             </td>
             <td class="bs">
-                <div id="piece13" class="wp"></div>
+                <div></div>
             </td>
             <td class="ws">
-                <div id="piece14" class="wp"></div>
+                <div></div>
             </td>
             <td class="bs">
-                <div id="piece15" class="wp"></div>
+                <div></div>
             </td>
             <td class="ws">
-                <div id="piece16" class="wp"></div>
+                <div></div>
             </td>
-            <td class="ls">7</td>
+            <td class="header">7</td>
         </tr>
         <tr>
-            <td class="ls">6</td>
+            <td class="header">6</td>
             <td class="ws"></td>
             <td class="bs"></td>
             <td class="ws"></td>
@@ -180,10 +229,10 @@
             <td class="bs"></td>
             <td class="ws"></td>
             <td class="bs"></td>
-            <td class="ls">6</td>
+            <td class="header">6</td>
         </tr>
         <tr>
-            <td class="ls">5</td>
+            <td class="header">5</td>
             <td class="bs"></td>
             <td class="ws"></td>
             <td class="bs"></td>
@@ -192,10 +241,10 @@
             <td class="ws"></td>
             <td class="bs"></td>
             <td class="ws"></td>
-            <td class="ls">5</td>
+            <td class="header">5</td>
         </tr>
         <tr>
-            <td class="ls">4</td>
+            <td class="header">4</td>
             <td class="ws"></td>
             <td class="bs"></td>
             <td class="ws"></td>
@@ -204,10 +253,10 @@
             <td class="bs"></td>
             <td class="ws"></td>
             <td class="bs"></td>
-            <td class="ls">4</td>
+            <td class="header">4</td>
         </tr>
         <tr>
-            <td class="ls">3</td>
+            <td class="header">3</td>
             <td class="bs"></td>
             <td class="ws"></td>
             <td class="bs"></td>
@@ -216,75 +265,75 @@
             <td class="ws"></td>
             <td class="bs"></td>
             <td class="ws"></td>
-            <td class="ls">3</td>
+            <td class="header">3</td>
         </tr>
         <tr class="wrapper3">
-            <td class="ls">2</td>
+            <td class="header">2</td>
             <td class="ws">
-                <div id="piece25" class="bp"></div>
+                <div></div>
             </td>
             <td class="bs">
-                <div id="piece26" class="bp"></div>
+                <div></div>
             </td>
             <td class="ws">
-                <div id="piece27" class="bp"></div>
+                <div></div>
             </td>
             <td class="bs">
-                <div id="piece28" class="bp"></div>
+                <div></div>
             </td>
             <td class="ws">
-                <div id="piece29" class="bp"></div>
+                <div></div>
             </td>
             <td class="bs">
-                <div id="piece30" class="bp"></div>
+                <div></div>
             </td>
             <td class="ws">
-                <div id="piece31" class="bp"></div>
+                <div></div>
             </td>
             <td class="bs">
-                <div id="piece32" class="bp"></div>
+                <div></div>
             </td>
-            <td class="ls">2</td>
+            <td class="header">2</td>
         </tr>
         <tr class="wrapper4">
-            <td class="ls">1</td>
+            <td class="header">1</td>
             <td class="bs">
-                <div id="piece17" class="bp"></div>
+                <div></div>
             </td>
             <td class="ws">
-                <div id="piece18" class="bp"></div>
+                <div></div>
             </td>
             <td class="bs">
-                <div id="piece19" class="bp"></div>
+                <div></div>
             </td>
             <td class="ws">
-                <div id="piece20" class="bp"></div>
+                <div></div>
             </td>
             <td class="bs">
-                <div id="piece21" class="bp"></div>
+                <div></div>
             </td>
             <td class="ws">
-                <div id="piece22" class="bp"></div>
+                <div></div>
             </td>
             <td class="bs">
-                <div id="piece23" class="bp"></div>
+                <div></div>
             </td>
             <td class="ws">
-                <div id="piece24" class="bp"></div>
+                <div></div>
             </td>
-            <td class="ls">1</td>
+            <td class="header">1</td>
         </tr>
         <tr>
-            <td class="ls">&nbsp;</td>
-            <td class="ls">a</td>
-            <td class="ls">b</td>
-            <td class="ls">c</td>
-            <td class="ls">d</td>
-            <td class="ls">e</td>
-            <td class="ls">f</td>
-            <td class="ls">g</td>
-            <td class="ls">h</td>
-            <td class="ls">&nbsp;</td>
+            <td class="header">&nbsp;</td>
+            <td class="header">a</td>
+            <td class="header">b</td>
+            <td class="header">c</td>
+            <td class="header">d</td>
+            <td class="header">e</td>
+            <td class="header">f</td>
+            <td class="header">g</td>
+            <td class="header">h</td>
+            <td class="header">&nbsp;</td>
         </tr>
     </table>
 </div>
