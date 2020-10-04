@@ -13,7 +13,6 @@
 h2 {
 font: 30px 'PT Serif', sans-serif;
 }
-.subtitle {
+.subtitle-wrapper {
     font: 15px 'Marck Script', cursive;
-    margin: 0 auto;
 }
