@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>css chess</title>
     <style>
-
         table {
             border-collapse: collapse;
             border-spacing: 0;
@@ -16,16 +15,43 @@
             border: 1px solid gray;
         }
 
-        .chess tr:first-child,td:first-child,tr:last-child,td:last-child {
-            background-color: aqua;
-        }
-
-        .chess tr:nth-child(even) td:nth-child(odd) {
+        .chess tr:nth-child(2) td:nth-child(odd),
+        .chess tr:nth-child(3) td:nth-child(even),
+        .chess tr:nth-child(4) td:nth-child(odd),
+        .chess tr:nth-child(5) td:nth-child(even),
+        .chess tr:nth-child(6) td:nth-child(odd),
+        .chess tr:nth-child(7) td:nth-child(even),
+        .chess tr:nth-child(8) td:nth-child(odd),
+        .chess tr:nth-child(9) td:nth-child(even) {
             background: black;
         }
 
-        .chess tr:nth-child(odd) td:nth-child(even) {
-            background: black;
+        .chess tr:first-child td,
+        .chess tr:last-child td,
+        .chess tr:nth-child(2) td:first-child,
+        .chess tr:nth-child(3) td:first-child,
+        .chess tr:nth-child(4) td:first-child,
+        .chess tr:nth-child(5) td:first-child,
+        .chess tr:nth-child(6) td:first-child,
+        .chess tr:nth-child(7) td:first-child,
+        .chess tr:nth-child(8) td:first-child,
+        .chess tr:nth-child(9) td:first-child,
+        .chess tr:nth-child(2) td:last-child,
+        .chess tr:nth-child(2) td:last-child,
+        .chess tr:nth-child(3) td:last-child,
+        .chess tr:nth-child(4) td:last-child,
+        .chess tr:nth-child(5) td:last-child,
+        .chess tr:nth-child(6) td:last-child,
+        .chess tr:nth-child(7) td:last-child,
+        .chess tr:nth-child(8) td:last-child,
+        .chess tr:nth-child(9) td:last-child {
+            background-color: greenyellow;
+            width: 30px;
+            height: 20px;
+        }
+
+        .chess tr:first-child td:first-child, .chess tr:first-child td:last-child, .chess tr:last-child td:last-child, .chess tr:last-child td:last-child, .chess tr:last-child td:last-child {
+            width: 20px;
         }
 
     </style>
