@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background: aqua;
+        }
+
+        .one-block {
+            width: 400px;
+            height: 400px;
+            background: yellow;
+            margin: 50px auto;
+        }
+
+        @media (max-width: 1280px) {
+            .one-block {
+                background: red;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .one-block {
+                border: 1px solid black;
+                border-radius: 30px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .one-block {
+                background: yellow;
+                border: 1px solid yellow;
+                border-radius: 30px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .one-block {
+                background: yellow;
+                border: 2px solid red;
+                border-radius: 30px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .one-block {
+                background: yellow;
+                border: 2px solid red;
+                border-radius: 50%;
+            }
+        }
+
+        @media (max-width: 320px) {
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            .one-block {
+                background: yellow;
+                border: none;
+                border-radius: 0%;
+                width: 320px;
+                margin: 0;
+            }
+        }
+    </style>
+    <title>one-block</title>
+</head>
+<body>
+<div class="one-block"></div>
+</body>
+</html>
