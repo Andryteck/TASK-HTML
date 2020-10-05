@@ -9,12 +9,38 @@
             background: aqua;
         }
 
+        table {
+            width: 100%
+        }
+
         .wrapper {
             background: white;
             max-width: 960px;
             min-width: 320px;
             border: 1px solid black;
             height: 400px;
+        }
+
+        .news-wrapper {
+            position: relative;
+        }
+
+        .content-wrapper {
+            min-width: 300px;
+        }
+
+        .news-wrapper p {
+            margin-left: 20px;
+        }
+
+        .news-wrapper a {
+            position: absolute;
+            top: 0;
+            right: 5%;
+        }
+
+        .content-wrapper p, .content-wrapper a {
+            margin-left: 25px;
         }
 
         .img {
@@ -27,56 +53,61 @@
 </head>
 <body>
 <div class="wrapper">
-    <div style="height:60px;display:flex;justify-content: space-around">
+    <div class="news-wrapper">
         <p>News</p>
-        <a href="https://andryteck.github.io/portfolio-react/">Показать весь архив</a>
+        <a href="https://andryteck.github.io/portfolio-react/" target="_blank">Показать весь архив</a>
     </div>
     <div>
-        <table style="width:100%">
+        <table>
             <tbody>
             <tr>
                 <td>
-                    <div>
+                    <div class="content-wrapper">
                         <img class="img" src="assets/sing1.jpg">
                         <p>30 ноября 2014</p>
                         <a href="https://andryteck.github.io/portfolio-react/">Важная информация с 1 декабря 2014</a>
                     </div>
                 </td>
                 <td>
-                    <div>
+                    <div class="content-wrapper">
                         <img class="img" src="assets/dance1.jpg">
                         <p>30 ноября 2014</p>
-                        <a href="https://andryteck.github.io/portfolio-react/">Важная информация с 1 декабря 2014</a>
+                        <a href="https://andryteck.github.io/portfolio-react/" target="_blank">Важная информация с 1
+                            декабря 2014</a>
                     </div>
                 </td>
                 <td>
-                    <div>
+                    <div class="content-wrapper">
                         <img class="img" src="assets/draw1.jpg">
                         <p>30 ноября 2014</p>
-                        <a href="https://andryteck.github.io/portfolio-react/">Важная информация с 1 декабря 2014</a>
+                        <a href="https://andryteck.github.io/portfolio-react/" target="_blank">Важная информация с 1
+                            декабря 2014</a>
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <div>
+                    <div class="content-wrapper">
                         <img class="img" src="assets/fish1.jpg">
                         <p>30 ноября 2014</p>
-                        <a href="https://andryteck.github.io/portfolio-react/">Важная информация с 1 декабря 2014</a>
+                        <a href="https://andryteck.github.io/portfolio-react/" target="_blank">Важная информация с 1
+                            декабря 2014</a>
                     </div>
                 </td>
                 <td>
-                    <div>
+                    <div class="content-wrapper">
                         <img class="img" src="assets/Jump1.jpg">
                         <p>30 ноября 2014</p>
-                        <a href="https://andryteck.github.io/portfolio-react/">Важная информация с 1 декабря 2014</a>
+                        <a href="https://andryteck.github.io/portfolio-react/" target="_blank">Важная информация с 1
+                            декабря 2014</a>
                     </div>
                 </td>
                 <td>
-                    <div>
+                    <div class="content-wrapper">
                         <img class="img" src="assets/Open1.jpg">
                         <p>30 ноября 2014</p>
-                        <a href="https://andryteck.github.io/portfolio-react/">Важная информация с 1 декабря 2014</a>
+                        <a href="https://andryteck.github.io/portfolio-react/" target="_blank">Важная информация с 1
+                            декабря 2014</a>
                     </div>
                 </td>
             </tr>
