@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        .wrapper {
+            margin: 0 auto;
+            max-width: 1020px;
+            height: 100vh;
+        }
+
+        .btn {
+            margin-left: 15px;
+            height: 25px;
+        }
+
+        .btn1 {
+            border: 1px solid red;
+            border-radius: 4px;
+            text-shadow: 1px 2px 3px #666;
+            box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        }
+
+        .btn1:hover {
+            background-color: #666666;
+        }
+
+        .btn1:active {
+            border: 2px solid black;
+        }
+
+        .btn2 {
+            border: 1px solid red;
+            border-radius: 6px;
+            text-shadow: 26px 26px 3px rgba(107, 255, 150, 1);
+            box-shadow: 1px 2px 3px 2px rgba(107, 255, 150, 1);
+            text-decoration: none;
+        }
+
+        .btn2:hover {
+            background-color: red;
+        }
+
+        .btn2:active {
+            border: 2px solid black;
+        }
+
+        .btn3 {
+            border: 1px solid gray;
+            border-radius: 10px;
+            text-shadow: -4px -1px 0px rgba(59, 61, 252, 1);
+            box-shadow: 2px 3px 1px 0px rgba(59, 61, 252, 1);
+        }
+
+        .btn3:hover {
+            background-color: blue;
+        }
+
+        .btn3:active {
+            border: 2px solid black;
+        }
+
+        .btn4 {
+            border: 2px solid greenyellow;
+            border-radius: 2px;
+            text-shadow: 18px 5px 13px rgba(213, 157, 17, 1);
+            box-shadow: 1px 2px 3px 0px rgba(213, 157, 17, 1);
+        }
+
+        .btn4:hover {
+            background-color: greenyellow;
+        }
+
+        .btn4:active {
+            border: 2px solid black;
+        }
+
+        .btn5 {
+            width: 100px;
+            padding: 10px;
+            text-align: center;
+            background-color: red;
+            border: 1px dashed red;
+            border-radius: 10px;
+            text-shadow: 10px 16px 3px rgba(213, 61, 17, 1);
+            box-shadow: 2px 4px 5px 0px rgba(213, 61, 17, 1);
+            margin-top: 15px;
+        }
+
+        .btn5:hover {
+            background-color: red;
+        }
+
+        .btn5:active {
+            border: 2px solid black;
+        }
+    </style>
+    <title>buttons</title>
+</head>
+<body>
+<div class="wrapper">
+    <button type="button" class="btn btn1">ButtonWithButton</button>
+    <a href="#" class="btn btn2" role="button" aria-pressed="true">ButtonWithA</a>
+    <input class="btn btn3"
+           type="button"
+           value="ButtonWithInput">
+    <span class="btn btn4">ButtonWithSpan</span>
+    <div class="btn btn5">ButtonWithDiv</div>
+</div>
+</body>
+</html>
