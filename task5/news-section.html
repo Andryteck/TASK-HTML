@@ -7,116 +7,117 @@
     <style>
         body {
             background: aqua;
-        }
-
-        table {
-            width: 100%
+            margin: 0;
+            padding: 0;
         }
 
         .wrapper {
-            background: white;
             max-width: 960px;
             min-width: 320px;
-            border: 1px solid black;
-            height: 400px;
+            margin: 25px auto;
+            background-color: white;
+            padding: 20px 15px;
+            box-sizing: border-box;
         }
 
-        .news-wrapper {
+        .header-wrapper {
             position: relative;
         }
 
-        .content-wrapper {
-            min-width: 300px;
-        }
-
-        .news-wrapper p {
+        .header-wrapper p {
             margin-left: 20px;
         }
 
-        .news-wrapper a {
+        .header-wrapper a {
             position: absolute;
             top: 0;
             right: 5%;
         }
 
-        .content-wrapper p, .content-wrapper a {
-            margin-left: 25px;
+        .news-wrapper {
+            clear: both;
+        }
+
+        .news-wrapper::after {
+            content: " ";
+            display: block;
+            clear: both;
+        }
+
+        .content-wrapper {
+            width: 33.333%;
+            min-width: 300px;
+            float: left;
+            margin: 10px 0;
         }
 
         .img {
             width: 60px;
             height: 60px;
             float: left;
+            margin-right: 15px;
         }
+
+        .content-wrapper p {
+            margin: 10px 0;
+        }
+
+        .content-wrapper a {
+            display: block;
+            margin-left: 75px;
+        }
+
     </style>
     <title>new-section</title>
 </head>
 <body>
 <div class="wrapper">
-    <div class="news-wrapper">
+    <div class="header-wrapper">
         <p>News</p>
         <a href="https://andryteck.github.io/portfolio-react/" target="_blank">Показать весь архив</a>
     </div>
-    <div>
-        <table>
-            <tbody>
-            <tr>
-                <td>
-                    <div class="content-wrapper">
-                        <img class="img" src="assets/sing1.jpg">
-                        <p>30 ноября 2014</p>
-                        <a href="https://andryteck.github.io/portfolio-react/">Важная информация с 1 декабря 2014</a>
-                    </div>
-                </td>
-                <td>
-                    <div class="content-wrapper">
-                        <img class="img" src="assets/dance1.jpg">
-                        <p>30 ноября 2014</p>
-                        <a href="https://andryteck.github.io/portfolio-react/" target="_blank">Важная информация с 1
-                            декабря 2014</a>
-                    </div>
-                </td>
-                <td>
-                    <div class="content-wrapper">
-                        <img class="img" src="assets/draw1.jpg">
-                        <p>30 ноября 2014</p>
-                        <a href="https://andryteck.github.io/portfolio-react/" target="_blank">Важная информация с 1
-                            декабря 2014</a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="content-wrapper">
-                        <img class="img" src="assets/fish1.jpg">
-                        <p>30 ноября 2014</p>
-                        <a href="https://andryteck.github.io/portfolio-react/" target="_blank">Важная информация с 1
-                            декабря 2014</a>
-                    </div>
-                </td>
-                <td>
-                    <div class="content-wrapper">
-                        <img class="img" src="assets/Jump1.jpg">
-                        <p>30 ноября 2014</p>
-                        <a href="https://andryteck.github.io/portfolio-react/" target="_blank">Важная информация с 1
-                            декабря 2014</a>
-                    </div>
-                </td>
-                <td>
-                    <div class="content-wrapper">
-                        <img class="img" src="assets/Open1.jpg">
-                        <p>30 ноября 2014</p>
-                        <a href="https://andryteck.github.io/portfolio-react/" target="_blank">Важная информация с 1
-                            декабря 2014</a>
-                    </div>
-                </td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-    <div>
+    <div class="news-wrapper">
+        <div class="content-wrapper">
+            <img class="img" src="assets/sing1.jpg">
+            <p>30 ноября 2014</p>
+            <a href="https://andryteck.github.io/portfolio-react/">Важная информация с 1 декабря 2014</a>
+        </div>
+
+        <div class="content-wrapper">
+            <img class="img" src="assets/dance1.jpg">
+            <p>30 ноября 2014</p>
+            <a href="https://andryteck.github.io/portfolio-react/" target="_blank">Важная информация с 1
+                декабря 2014</a>
+        </div>
+
+        <div class="content-wrapper">
+            <img class="img" src="assets/draw1.jpg">
+            <p>30 ноября 2014</p>
+            <a href="https://andryteck.github.io/portfolio-react/" target="_blank">Важная информация с 1
+                декабря 2014</a>
+        </div>
 
 
+        <div class="content-wrapper">
+            <img class="img" src="assets/fish1.jpg">
+            <p>30 ноября 2014</p>
+            <a href="https://andryteck.github.io/portfolio-react/" target="_blank">Важная информация с 1
+                декабря 2014</a>
+        </div>
+
+        <div class="content-wrapper">
+            <img class="img" src="assets/Jump1.jpg">
+            <p>30 ноября 2014</p>
+            <a href="https://andryteck.github.io/portfolio-react/" target="_blank">Важная информация с 1
+                декабря 2014</a>
+        </div>
+
+        <div class="content-wrapper">
+            <img class="img" src="assets/Open1.jpg">
+            <p>30 ноября 2014</p>
+            <a href="https://andryteck.github.io/portfolio-react/" target="_blank">Важная информация с 1
+                декабря 2014</a>
+        </div>
     </div>
 </div>
 </body>
