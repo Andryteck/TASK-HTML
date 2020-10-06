@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'PT Serif', serif;
+    src: url('https://fonts.googleapis.com/css2?family=Marck+Script&family=PT+Serif&display=swap');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Marck Script',cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Marck+Script&family=PT+Serif&display=swap');
+    font-weight: normal;
+    font-style: normal;
+}
+h2 {
+font: 30px 'PT Serif', sans-serif;
+}
+.subtitle-wrapper {
+    font: 15px 'Marck Script', cursive;
+}
