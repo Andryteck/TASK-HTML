@@ -6,22 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <style>
         body {
-
+            margin: 0;
+            padding: 0;
         }
-p {
-    font-family: monospace;
-}
+
+        p {
+            font-family: monospace;
+        }
+
         .wrapper {
             position: relative;
         }
 
-        .yellow {
+        .advertising--yellow {
             width: 200px;
             height: 100px;
             background-color: yellow;
             position: absolute;
             top: 31%;
             right: 20px;
+            color: blue;
+        }
+
+        .image-wrapper {
+            position: relative;
+            width: 450px;
+            margin: auto;
         }
 
         .biohazard {
@@ -29,8 +39,8 @@ p {
             background-image: url("./assets/biohazard.png");
             width: 200px;
             height: 200px;
-            left: 40%;
-            bottom: -110px;
+            left: 0px;
+            top: 40px;
 
         }
 
@@ -40,8 +50,8 @@ p {
             width: 220px;
             height: 223px;
             background-repeat: no-repeat;
-            bottom: -110px;
-            left: 52%;
+            right: 0px;
+
         }
 
         .no-smoking {
@@ -51,18 +61,20 @@ p {
             height: 257px;
             background-repeat: no-repeat;
             margin: auto;
-            top: 130%; left: 0; bottom: 0; right: 0;
+            top: 75px;
+            left: 75px;
             z-index: 100;
         }
 
-        .to-top {
-            position: absolute;
+        .anchor {
+            position: fixed;
+            left: 50%;
             background-image: url("./assets/to-top.png");
             width: 41px;
             height: 41px;
             background-repeat: no-repeat;
-            margin: auto;
-            top: 240%; left: 0; bottom: 0; right: 0;
+            bottom: 20px;
+            transform: translateX(-50%);
         }
 
         .yin-yang {
@@ -71,11 +83,11 @@ p {
             width: 200px;
             height: 200px;
             margin: auto;
-            top: 130%; left: 0; bottom: -153px; right: 0;
-            z-index: 1;
+            left: 100px;
+            top: 220px;
         }
     </style>
-    <title>new-section</title>
+    <title>position-images</title>
 </head>
 <body>
 <div class="wrapper">
@@ -87,8 +99,11 @@ p {
         type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
         remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
         Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
-        of
-        Lorem Ipsum.</p>
+        of Lorem Ipsum type specimen book. It has survived not only five centuries, but also the leap into electronic
+        typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of.</p>
 
     <h2>Why do we use it?</h2>
 
@@ -133,12 +148,14 @@ p {
         structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free
         from
         repetition, injected humour, or non-characteristic words etc.</p>
-    <div class="yellow">Здесь могла бы быть ваша реклама</div>
-    <div class="biohazard"></div>
-    <div class="man-and-woman"></div>
-    <div class="no-smoking"></div>
-    <div class="to-top"></div>
-    <div class="yin-yang"></div>
+    <div class="image-wrapper">
+        <div class="biohazard"></div>
+        <div class="man-and-woman"></div>
+        <div class="no-smoking"></div>
+        <div class="yin-yang"></div>
+    </div>
 </div>
+<div class="advertising--yellow">Здесь могла бы быть ваша реклама</div>
+<a class="anchor" href="position-images.html" title="to-top"></a>
 </body>
 </html>
