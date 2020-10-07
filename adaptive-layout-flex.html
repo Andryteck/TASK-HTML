@@ -25,25 +25,24 @@
             justify-content: space-between;
             font-family: "Lato", sans-serif;
             font-weight: 700;
-            text-transform: uppercase;
             letter-spacing: -0.042em;
-            background-color: blue;
+            background-color: dodgerblue;
         }
 
-        nav {
+        .nav {
             margin-top: 15px;
         }
 
-        nav ul {
+        .nav ul {
             margin: 0;
         }
 
-        nav ul li {
+        .nav ul li {
             display: inline-block;
             list-style-type: none;
         }
 
-        nav a {
+        .nav a {
             font-size: 12px;
             text-decoration: none;
             color: white;
@@ -84,7 +83,7 @@
         }
 
         .footer {
-            padding: 20px 0 19px 13px;
+            padding: 10px 0 8px 13px;
             background-color: greenyellow;
             width: 100%;
             max-width: 1520px;
@@ -121,13 +120,14 @@
                 margin: 0 auto
             }
 
-            nav {
+            .nav {
                 width: 100%;
             }
 
-            nav ul {
+            .nav ul {
                 display: flex;
                 justify-content: space-around;
+                padding: 15px;
             }
 
             .nav ul li {
@@ -149,17 +149,52 @@
                 width: 50%;
             }
 
-            .footer-copyright {
-
+            .footer-wrapper {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
             }
 
+            .footer-copyright {
+                width: 100%;
+                text-align: center;
+            }
+
+            .footer-social {
+                margin: 0;
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+            }
         }
 
         @media (max-width: 375px) {
-            nav ul li {
-                width: 100%;
-                border-top: 2px solid dodgerblue;
+            .header-logo {
+                margin: 0 auto
             }
+
+            .nav {
+                width: 100%;
+                margin: 0;
+            }
+
+            .nav ul {
+                justify-content: space-around;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                padding: 0;
+            }
+
+            .nav ul li {
+                display: block;
+                border-top: 1px solid #00d4ff;
+                width: 100%;
+                text-align: center;
+                padding: 5px 0;
+            }
+
 
             .sidebar1, .sidebar2 {
                 width: 100%;
@@ -173,8 +208,17 @@
                 padding: 0;
             }
 
+            .footer-copyright {
+                width: 100%;
+                text-align: center
+            }
+
             .footer ul {
                 width: 100%;
+                flex-direction: column;
+                text-align: center;
+                margin: 0;
+                padding: 0;
             }
 
             .footer ul li {
@@ -188,7 +232,7 @@
 <body>
 <header class="header">
     <div class="header-logo">logo</div>
-    <nav>
+    <nav class="nav">
         <ul>
             <li><a class="current">Главная</a></li>
             <li><a href="#">О нас</a></li>
