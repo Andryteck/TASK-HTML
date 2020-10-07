@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            margin: 40px auto;
+            padding: 40px 25px;
+            width: 60%;
+            height: 100%;
+            box-shadow: 0px 6px 11px 3px rgba(201,191,201,1);
+        }
+
+        .wrapper p:first-child {
+            margin-bottom: 25px;
+        }
+
+        .html, .css, .javascript, .jquery {
+            position: relative;
+            height: 20px;
+            border-radius: 8px;
+            background-color: #e4e4e4;
+            margin-bottom: 20px;
+
+        }
+
+        div:not(:first-child)::before {
+            content: "";
+            border-radius: 10px;
+            position: absolute;
+            top: 1px;
+            left: 1px;
+            height: 20px;
+        }
+
+        .html::before {
+            animation: html 2s linear forwards;
+            background-color: orange;
+        }
+
+        .css::before {
+            animation: css 2s linear forwards;
+            background-color: purple;
+        }
+
+        .javascript::before {
+            animation: js 2s linear forwards;
+            background-color: red;
+        }
+
+        .jquery::before {
+            animation: jq 2s linear forwards;
+            background-color: green;
+        }
+
+        @keyframes html {
+            100% {
+                width: 75%;
+            }
+        }
+
+        @keyframes css {
+            100% {
+                width: 65%;
+            }
+        }
+
+        @keyframes js {
+            100% {
+                width: 55%;
+            }
+        }
+
+        @keyframes jq {
+            100% {
+                width: 45%;
+            }
+        }
+    </style>
+    <title>knowledges</title>
+</head>
+<body>
+<div class="wrapper">
+    <p>Мои знания:</p>
+    <p>HTML</p>
+    <div class="html"></div>
+    <p>CSS</p>
+    <div class="css"></div>
+    <p>JavaScript</p>
+    <div class="javascript"></div>
+    <p>jQuery</p>
+    <div class="jquery"></div>
+</div>
+</body>
+</html>
