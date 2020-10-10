@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Lato", sans-serif;
+            font-weight: normal;
+        }
+
+        header, section, footer {
+            max-width: 1520px;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            font-family: "Lato", sans-serif;
+            font-weight: 700;
+            letter-spacing: -0.042em;
+            background-color: dodgerblue;
+        }
+
+        .nav {
+            margin-top: 15px;
+        }
+
+        .nav ul {
+            margin: 0;
+        }
+
+        .nav ul li {
+            display: inline-block;
+            list-style-type: none;
+        }
+
+        .nav a {
+            font-size: 12px;
+            text-decoration: none;
+            color: white;
+            padding-right: 5px;
+            margin-left: 2.19em;
+        }
+
+        .header-logo {
+            padding: 20px 35px;
+            background-color: gray;
+            color: white;
+            box-sizing: border-box;
+        }
+
+        .main-content {
+            display: flex;
+        }
+
+        .sidebar1 {
+            flex-grow: 1;
+            background-color: goldenrod;
+            text-align: center;
+        }
+
+        .content {
+            flex-grow: 4;
+            background-color: aqua;
+            width: 25%;
+            padding-left: 15px;
+            padding-right: 15px;
+            box-sizing: border-box;
+        }
+
+        .sidebar2 {
+            flex-grow: 1;
+            background-color: hotpink;
+            text-align: center;
+        }
+
+        .footer {
+            padding: 10px 0 8px 13px;
+            background-color: greenyellow;
+            width: 100%;
+            max-width: 1520px;
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+
+        .footer-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-copyright {
+            margin-left: 2px;
+            font-weight: 900;
+            font-size: 13px;
+        }
+
+        .footer-social {
+            margin: 0;
+            color: white;
+        }
+
+        .footer-social li {
+            display: inline-block;
+            list-style-type: none;
+            padding-right: 5px;
+        }
+
+        @media (max-width: 760px) {
+
+            .header-logo {
+                margin: 0 auto
+            }
+
+            .nav {
+                width: 100%;
+            }
+
+            .nav ul {
+                display: flex;
+                justify-content: space-around;
+                padding: 15px;
+            }
+
+            .nav ul li {
+                display: block;
+            }
+
+            .main-content {
+                flex-wrap: wrap;
+            }
+
+            .content {
+                width: 100%;
+                order: 1
+            }
+
+            .sidebar1 {
+                order: 2;
+                width: 50%;
+            }
+
+            .sidebar2 {
+                order: 3;
+                width: 50%;
+            }
+
+            .footer-wrapper {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .footer-copyright {
+                width: 100%;
+                text-align: center;
+                margin-top: 0;
+            }
+
+            .footer-social {
+                margin: 0;
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 375px) {
+            .header-logo {
+                margin: 0 auto
+            }
+
+            .nav {
+                width: 100%;
+                margin: 0;
+            }
+
+            .nav ul {
+                justify-content: space-around;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                padding: 0;
+            }
+
+            .nav ul li {
+                display: block;
+                border-top: 1px solid #00d4ff;
+                width: 100%;
+                text-align: center;
+                padding: 5px 0;
+            }
+
+
+            .sidebar1, .sidebar2 {
+                width: 100%;
+            }
+
+            .footer-wrapper {
+                flex-direction: column;
+            }
+
+            .footer {
+                padding: 0;
+            }
+
+            .footer-copyright {
+                width: 100%;
+                text-align: center
+            }
+
+            .footer ul {
+                width: 100%;
+                flex-direction: column;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+
+            .footer ul li {
+                display: block;
+                border-top: 1px solid gray;
+            }
+        }
+    </style>
+    <title>adaptive-layout-flex</title>
+</head>
+<body>
+<header class="header">
+    <div class="header-logo">logo</div>
+    <nav class="nav">
+        <ul>
+            <li><a class="current">Главная</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Продукты</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+</div>
+<section class="main-content">
+    <div class="sidebar1"><p>Aside type 1</p></div>
+    <div class="content">
+        <h2>What is Lorem Ipsum?</h2>
+        <p class="text">It is a long established fact that a reader will be distracted by the readable content of a
+            page when
+            looking
+            at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+            letters,
+            as opposed to using 'Content here, content here', making it look like readable English. Many desktop
+            publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search
+            for
+            'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the
+            years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+        <h2>Why do we use it?</h2>
+        <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+            into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+            release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum</p>
+    </div>
+    </div>
+    <div class="sidebar2"><p>Aside type 2</p></div>
+</section>
+<footer class="footer">
+    <div class="footer-wrapper">
+        <p class="footer-copyright">
+            &copy; Copyright 2017
+        </p>
+        <ul class="footer-social">
+            <li>Twitter</li>
+            <li>Vkontakte</li>
+            <li>Facebook</li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
