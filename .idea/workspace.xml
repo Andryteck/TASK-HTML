@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf9733ff-1817-4324-958f-cb5b5f165aa3" name="Default Changelist" comment="fix" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="task1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hy6cBsqOuTgDFRTGeiEQfqzLl8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Task2" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/task4" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/assets/fonts" />
+      <recent name="$PROJECT_DIR$/task5/assets" />
+      <recent name="$PROJECT_DIR$/Task2/assets" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf9733ff-1817-4324-958f-cb5b5f165aa3" name="Default Changelist" comment="" />
+      <created>1600971063405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600971063405</updated>
+      <workItem from="1600971064642" duration="5406000" />
+      <workItem from="1601375689751" duration="74684000" />
+      <workItem from="1601706418150" duration="1585000" />
+      <workItem from="1601804389375" duration="76853000" />
+      <workItem from="1602012656198" duration="48916000" />
+    </task>
+    <task id="LOCAL-00013" summary="feat: additional task 6">
+      <created>1601480155641</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601480155641</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: task 14">
+      <created>1601499925274</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1601499925275</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: add additional task 7">
+      <created>1601547313052</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601547313052</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: add ask 15 and 16">
+      <created>1601568134341</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601568134342</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: add task 17">
+      <created>1601574650892</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1601574650892</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: add task 18">
+      <created>1601587616555</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1601587616556</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: additional task 9">
+      <created>1601635741965</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1601635741968</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: task 20">
+      <created>1601646074248</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1601646074250</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat: add additional task 10">
+      <created>1601664092792</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1601664092793</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat: task 21">
+      <created>1601673522615</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1601673522615</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: task 22">
+      <created>1601674079348</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1601674079348</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix: task 19">
+      <created>1601830807392</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1601830807392</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add: additional task 11">
+      <created>1601835680205</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1601835680205</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fix">
+      <created>1601836031785</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1601836031785</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix">
+      <created>1601836260318</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1601836260319</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fix">
+      <created>1601837567115</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1601837567116</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fix">
+      <created>1601838845035</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1601838845035</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fix">
+      <created>1601847303909</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1601847303909</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fix">
+      <created>1601890191579</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1601890191579</updated>
+    </task>
+    <task id="LOCAL-00032" summary="feat: add task 23">
+      <created>1601891759559</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1601891759559</updated>
+    </task>
+    <task id="LOCAL-00033" summary="feat: add task 24">
+      <created>1601905663505</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1601905663505</updated>
+    </task>
+    <task id="LOCAL-00034" summary="feat: add task 25">
+      <created>1601909642427</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1601909642427</updated>
+    </task>
+    <task id="LOCAL-00035" summary="feat: add task 25">
+      <created>1601910597501</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1601910597501</updated>
+    </task>
+    <task id="LOCAL-00036" summary="feat: additional task 13">
+      <created>1601934187674</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1601934187674</updated>
+    </task>
+    <task id="LOCAL-00037" summary="feat: add task 27">
+      <created>1601977728037</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1601977728037</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat: add task 28">
+      <created>1601982045036</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1601982045036</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feat: additional task 14">
+      <created>1601989586162</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1601989586162</updated>
+    </task>
+    <task id="LOCAL-00040" summary="feat: task 29">
+      <created>1601992458317</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1601992458317</updated>
+    </task>
+    <task id="LOCAL-00041" summary="fix">
+      <created>1601993075264</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1601993075265</updated>
+    </task>
+    <task id="LOCAL-00042" summary="fix">
+      <created>1601996767901</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1601996767901</updated>
+    </task>
+    <task id="LOCAL-00043" summary="fix">
+      <created>1601997743922</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1601997743922</updated>
+    </task>
+    <task id="LOCAL-00044" summary="fix">
+      <created>1602012552265</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1602012552266</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fix: changed table with div">
+      <created>1602016122112</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1602016122112</updated>
+    </task>
+    <task id="LOCAL-00046" summary="fix:">
+      <created>1602021272373</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1602021272374</updated>
+    </task>
+    <task id="LOCAL-00047" summary="fix:">
+      <created>1602068408874</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1602068408874</updated>
+    </task>
+    <task id="LOCAL-00048" summary="feat: additional task 15">
+      <created>1602073273989</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1602073273990</updated>
+    </task>
+    <task id="LOCAL-00049" summary="feat: add task 31 without 760 and 375 media">
+      <created>1602090102040</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1602090102040</updated>
+    </task>
+    <task id="LOCAL-00050" summary="fix">
+      <created>1602098096023</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1602098096025</updated>
+    </task>
+    <task id="LOCAL-00051" summary="fix">
+      <created>1602100988027</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1602100988027</updated>
+    </task>
+    <task id="LOCAL-00052" summary="fix">
+      <created>1602102408027</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1602102408027</updated>
+    </task>
+    <task id="LOCAL-00053" summary="fix">
+      <created>1602105984994</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1602105984994</updated>
+    </task>
+    <task id="LOCAL-00054" summary="fix">
+      <created>1602152178311</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1602152178313</updated>
+    </task>
+    <task id="LOCAL-00055" summary="fix">
+      <created>1602169695956</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1602169695957</updated>
+    </task>
+    <task id="LOCAL-00056" summary="fix">
+      <created>1602169744092</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1602169744092</updated>
+    </task>
+    <task id="LOCAL-00057" summary="fix">
+      <created>1602169868019</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1602169868019</updated>
+    </task>
+    <task id="LOCAL-00058" summary="fix">
+      <created>1602171339184</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1602171339185</updated>
+    </task>
+    <task id="LOCAL-00059" summary="fix">
+      <created>1602171461942</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1602171461944</updated>
+    </task>
+    <task id="LOCAL-00060" summary="fix">
+      <created>1602172477177</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1602172477178</updated>
+    </task>
+    <task id="LOCAL-00061" summary="fix">
+      <created>1602172624973</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1602172624973</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: task 14" />
+    <MESSAGE value="feat: add additional task 7" />
+    <MESSAGE value="feat: add ask 15 and 16" />
+    <MESSAGE value="feat: add task 17" />
+    <MESSAGE value="feat: add task 18" />
+    <MESSAGE value="feat: additional task 9" />
+    <MESSAGE value="feat: task 20" />
+    <MESSAGE value="feat: add additional task 10" />
+    <MESSAGE value="feat: task 21" />
+    <MESSAGE value="feat: task 22" />
+    <MESSAGE value="fix: task 19" />
+    <MESSAGE value="add: additional task 11" />
+    <MESSAGE value="feat: add task 23" />
+    <MESSAGE value="feat: add task 24" />
+    <MESSAGE value="feat: add task 25" />
+    <MESSAGE value="feat: additional task 13" />
+    <MESSAGE value="feat: add task 27" />
+    <MESSAGE value="feat: add task 28" />
+    <MESSAGE value="feat: additional task 14" />
+    <MESSAGE value="feat: task 29" />
+    <MESSAGE value="fix: changed table with div" />
+    <MESSAGE value="fix:" />
+    <MESSAGE value="feat: additional task 15" />
+    <MESSAGE value="feat: add task 31 without 760 and 375 media" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602068507159">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="451" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1602068507159" />
+    <state x="534" y="236" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602095821724">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="534" y="236" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1602095821724" />
+    <state x="534" y="240" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.826/-1920.-349.1920.1057@0.23.1440.826" timestamp="1602095245125" />
+    <state x="534" y="240" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.827/-1920.-349.1920.1057@0.23.1440.827" timestamp="1601661487786" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1602172631389">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1602172631389" />
+    <state x="320" y="198" key="Vcs.Push.Dialog.v2/0.23.1440.827@0.23.1440.827" timestamp="1601125638250" />
+    <state x="468" y="170" key="git4idea.branch.GitSmartOperationDialog" timestamp="1601986070387">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="468" y="170" key="git4idea.branch.GitSmartOperationDialog/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1601986070387" />
+    <state x="385" y="210" key="run.anything.popup" timestamp="1601903207598">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" key="run.anything.popup/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1601903207598" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601462876080">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1601462876080" />
+    <state x="450" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602159875226">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="450" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1440.900/-1920.-372.1920.1080@0.0.1440.900" timestamp="1602159875226" />
+  </component>
+</project>
