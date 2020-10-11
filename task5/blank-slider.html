@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        body {
+            min-height: 400px;
+            background-color: black;
+        }
+
+        h1 {
+            color: white;
+            font-size: 50px;
+            text-align: center;
+            border-bottom: 2px solid white;
+            border-top: 2px solid white;
+            margin-top: 70px;
+            padding: 20px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        p {
+            font-size: 25px;
+        }
+
+        .wrapper {
+            width: 100%;
+            height: 400px;
+            max-width: 1020px;
+            padding: 0 40px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .arrow {
+            position: absolute;
+            bottom: 0;
+            width: 80px;
+            height: 100%;
+            background-image: url(./assets/blank_slider_images/prev-next-sprite.png);
+            background-repeat: no-repeat;
+            background-position: 3.9215vw center;
+            opacity: 0.2;
+            background-color: transparent;
+        }
+
+        .content {
+            position: relative;
+            margin: 0 auto;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            background-image: url(./assets/blank_slider_images/slider-img-01.jpg);
+        }
+
+        .title-wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+
+        .left {
+            z-index: 501;
+            right: auto;
+            left: 0;
+            background-position-x: 42px;
+        }
+
+        .right {
+            z-index: 502;
+            right: 0;
+            left: auto;
+            background-position-x: -29px;
+        }
+
+        .bread-butter-wrapper {
+            position: absolute;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            left: 50%;
+            bottom: 7%;
+            transform: translateX(-50%);
+        }
+
+        .bread-butter {
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            display: inline;
+            margin-right: 6px;
+            text-align: center;
+            left: 45%;
+        }
+
+        .bread-butter a {
+            padding: 5px 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+    </style>
+    <title>blank-slider</title>
+</head>
+<body>
+<div class="wrapper">
+    <a class="arrow left"></a>
+    <div class="content">
+        <div class="title-wrapper">
+            <h1>Комфортная одежда</h1>
+            <p>для всех видов спорта</p>
+        </div>
+        <ol class="bread-butter-wrapper">
+            <li class="bread-butter yellow"><a href=""></a></li>
+            <li class="bread-butter"><a href="https://andryteck.github.io/portfolio-react/" target="_blank"></a></li>
+            <li class="bread-butter"><a href="https://andryteck.github.io/portfolio-react/" target="_blank"></a></li>
+            <li class="bread-butter"><a href="https://andryteck.github.io/portfolio-react/" target="_blank"></a></li>
+        </ol>
+    </div>
+    <a class="arrow right"></a>
+</div>
+</body>
+</html>
