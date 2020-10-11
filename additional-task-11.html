@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background: whitesmoke;
+        }
+
+        .content-wrapper {
+            position: relative;
+        }
+
+        .content-wrapper:first-child img:first-child {
+            margin-left: 0px;
+        }
+
+        .content-wrapper:first-child::after {
+            color: gray;
+            border-left: 2px solid currentcolor;
+            border-bottom: 2px solid currentcolor;
+            content: '';
+            position: absolute;
+            top: 52px;
+            left: 25px;
+            width: 97px;
+            height: 383px;
+        }
+        .content-wrapper:nth-child(2)::before,  .content-wrapper:nth-child(3)::before {
+            color: gray;
+            border-bottom: 2px solid currentcolor;
+            content: '';
+            position: absolute;
+            bottom: 110px;
+            left: 25px;
+            width: 99px;
+            height: 383px;
+        }
+        .content-wrapper:nth-child(3)::before {
+            bottom: 75px;
+        }
+        .content-wrapper:nth-child(2)::after ,.content-wrapper:nth-child(3)::after ,.content-wrapper:nth-child(4)::after {
+            position: absolute;
+            content: '>';
+            width: 50px;
+            height: 50px;
+            color: gray;
+            top:19px;
+            left: 119px;
+        }
+
+        .content-image {
+            width: 50px;
+            height: 50px;
+            background: #3F3F3F;
+            border: 3px solid white;
+            float: left;
+            margin-left: 125px;
+            position: relative;
+        }
+
+        .content {
+            width: 567px;
+            background-color: white;
+            margin-left: 200px;
+            margin-top: 20px;
+            border: 1px solid gray;
+            border-radius: 4px;
+            padding-left: 10px;
+            color: gray;
+        }
+        .wrapper .content-wrapper:first-child .content {
+            margin-left: 80px
+        }
+    </style>
+    <title>task11</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="content-wrapper">
+        <div><img class="content-image"></div>
+        <div class="content"><p>
+            <b>User12312312</b> спрашивает:
+        </p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s</p>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <img class="content-image">
+        <div class="content">
+            <p><b>User12312312</b> отвечает:</p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur
+            </p>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <img class="content-image">
+        <div class="content"><p><b>User12312312</b> спрашивает:</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.=))))</p></div>
+    </div>
+    <div class="content-wrapper">
+        <img class="content-image">
+        <div class="content"><p><b>User12312312</b> отвечает:</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur</p></div>
+    </div>
+</div>
+</body>
+</html>

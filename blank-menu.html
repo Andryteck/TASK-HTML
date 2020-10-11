@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>blank-menu</title>
+    <style>
+        body {
+            background-color: #3F3F3F;
+            font: 15px/1.625em "Helvetica Neue", Helvetica, sans-serif;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        .wrapper {
+            width: 100%;
+            max-width: 1020px;
+            padding: 0 40px;
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+
+        .menu {
+            margin-top: 50px;
+        }
+
+        img {
+            width: 20px;
+            height: 20px;
+            margin-top: 5px;
+            margin-left: 5px;
+            color: white;
+        }
+
+        .menu ul {
+            width: 850px;
+            height: 100%;
+            background-color: gray;
+            padding: 0;
+            margin: auto;
+        }
+
+        .menu ul li {
+            display: inline-block;
+            height: 40px;
+            width: 150px;
+            list-style-type: none;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: white;
+            margin-top: 5px;
+            margin-left: 35px;
+            font-size: 20px;
+            line-height: 40px;
+            position: relative;
+        }
+
+        .menu ul li a::before {
+            content: '';
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            background: url(./assets/sprite.png);
+            left: -27px;
+            top: 0px;
+        }
+
+        .menu ul li:nth-child(1) a::before {
+            background-position: 72px 48px;
+        }
+
+        .menu ul li:nth-child(2) a::before {
+            background-position: 48px 0px;
+        }
+
+        .menu ul li:nth-child(3) a::before {
+            background-position: 24px 0px;
+        }
+
+        .menu ul li:nth-child(4) a::before {
+            background-position: 72px 48px;
+        }
+
+        .menu ul li:nth-child(5) a::before {
+            background-position: 48px 24px;
+        }
+
+        .main:hover {
+            background-color: dodgerblue;
+        }
+
+        .portfolio:hover {
+            background-color: dodgerblue;
+        }
+
+        .submenu {
+            background-color: white;
+            position: absolute;
+        }
+
+        .submenu1 {
+            width: 150px;
+            height: 120px;
+            left: 361px;
+
+        }
+
+        .submenu2 {
+            width: 150px;
+            height: 80px;
+            left: 669px;
+        }
+
+        .submenu3 {
+            width: 150px;
+            height: 120px;
+            left: 819px;
+            top: 173px;
+        }
+
+        .submenu1 div, .submenu2 div, .submenu3 div {
+            line-height: 40px;
+            text-align: center;
+            height: 40px;
+        }
+
+        .submenu div:hover {
+            background-color: gray;
+            border-left: 2px solid blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <h1>Много-уровневое горизонтальное меню</h1>
+    <div class="menu">
+        <ul>
+            <li class="main"><a href="#">Главная</a></li>
+            <li><a href="#">О нас</a></li>
+            <li class="portfolio"><a href="#">Портфолио</a>
+            </li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+        <div class="submenu submenu1">
+            <div>Подменю 1</div>
+            <div>Подменю 2</div>
+            <div>Подменю 3</div>
+        </div>
+        <div class="submenu submenu2">
+            <div>Подменю 1</div>
+            <div>Подменю 2</div>
+        </div>
+        <div class="submenu submenu3">
+            <div>Подменю 1</div>
+            <div>Подменю 2</div>
+            <div>Подменю 3</div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
